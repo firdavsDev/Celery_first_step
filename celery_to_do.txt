@@ -1,0 +1,18 @@
+! Celery first project
+
+
+* Conficuration Django(install pip (django, celery) 
+* Install Redis(RabbitMQ) message broker
+	sudo apt-get rabbitmq-server 
+	sudo systemctl enable rabbitmq-server
+	sudo systemctl start/status rabbitmq-server
+	
+* User wait respose via Celery
+* Celery -> Different thread
+* Task Queues
+* MSG Broker 
+* Django -> Task MSG -> MSG Broker
+* Django -> RabbitMQ-> Celery
+* 
+* RabbitMQ/Redis
+* celery -A proj worker -l info #command
