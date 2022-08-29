@@ -5,7 +5,7 @@ Celery first step project for educations students
 # Install RabbitMQ - (message broker)
 	sudo apt-get install rabbitmq-server
 	sudo systemctl enable rabbitmq-server
-	sudo systemctl start/status rabbitmq-server
+	sudo systemctl start rabbitmq-server
 	sudo systemctl status rabbitmq-server
 	
 
